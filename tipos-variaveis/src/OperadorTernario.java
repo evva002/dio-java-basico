@@ -1,4 +1,4 @@
-public class Operadores {
+public class OperadorTernario {
     public static void main(String[] args) {
         int a = 5;
         int b = 6;
