@@ -18,6 +18,6 @@ public class ContaTerminal {
         double saldo = scanner.nextDouble();
 
         System.out.println("Parebéns " + nomeCliente + ", agencia " + agencia + ", conta " + conta +
-        " seu saldo é de: " + saldo );
+        ", seu saldo é de: " + saldo );
     }
 }
