@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class TesteScanner {
     public static void main(String[] args)  {
         
+        try {
         //lendo os dados
         
         Scanner scanner = new Scanner(System.in);
@@ -25,5 +26,11 @@ public class TesteScanner {
         System.out.println("Tenho " + idade + " anos");
         System.out.println("Minha altura é: " + altura + "cm");
 
+        scanner.close();
+        }
+        catch (java.util.InputMismatchException exception){
+            System.out.println("Atenção. Os campos idade e altura devem ser numéricos !!!");
+        }
+    
     }
 }
