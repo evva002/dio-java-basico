@@ -19,5 +19,7 @@ public class ContaTerminal {
 
         System.out.println("Parebéns " + nomeCliente + ", agencia " + agencia + ", conta " + conta +
         ", seu saldo é de: " + saldo );
+
+        System.out.println("Teste");
     }
 }
